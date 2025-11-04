@@ -66,6 +66,7 @@ pids
 
 # TypeScript
 *.tsbuildinfo
+next-env.d.ts
 
 # Playwright MCP data
 ../.playwright-mcp/
