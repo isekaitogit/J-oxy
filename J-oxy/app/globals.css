@@ -81,3 +81,31 @@
 .transform-style-3d {
   transform-style: preserve-3d;
 }
+
+/* OXYLABS Background Animation Keyframes */
+@keyframes scrollText1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollText2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollText3 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

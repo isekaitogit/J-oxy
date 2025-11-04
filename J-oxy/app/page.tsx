@@ -765,36 +765,6 @@ export default function Home() {
             }}
           />
         </div>
-        
-        {/* CSS Animation for scrolling text - Horizontal flow */}
-        <style jsx>{`
-          @keyframes scrollText1 {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-          
-          @keyframes scrollText2 {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-          
-          @keyframes scrollText3 {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-        `}</style>
       </div>
 
       {/* Hero Section */}
