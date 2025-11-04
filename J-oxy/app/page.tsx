@@ -840,6 +840,30 @@ export default function Home() {
               <span>22+ Certifications (AWS, Azure, Zendesk, Terraform)</span>
             </div>
           </div>
+
+          {/* Motivation Section */}
+          <div className="mt-12 p-6 rounded-lg border border-cyan-400/20 bg-gradient-to-r from-cyan-400/5 to-transparent">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-cyan-400 mb-2">Why Oxylabs & IT Operations?</h3>
+            </div>
+            <div className="space-y-3 text-sm">
+              <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>
+                <strong className="text-cyan-400">My Goal:</strong> I have a personal dream of building a SaaS company someday.
+              </p>
+              <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>
+                <strong className="text-cyan-400">The Journey:</strong> I started at CyberCare to learn customer-facing operations first. 
+                After 10+ months, I've mastered customer service and achieved 96% satisfaction rates.
+              </p>
+              <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>
+                <strong className="text-cyan-400">Next Step:</strong> Now I want to understand the internal operations side - 
+                managing IT infrastructure, supporting employees, and handling operational workflows.
+              </p>
+              <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>
+                <strong className="text-cyan-400">Perfect Match:</strong> Oxylabs Junior IT Operations role is exactly what I need 
+                to complete my understanding of both customer-facing and internal operations.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="w-1/2 relative flex items-center justify-center p-8">
